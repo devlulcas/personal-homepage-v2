@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
 /*--NAVIGATION-BUTTONS*/
@@ -18,7 +19,6 @@
 .content header nav .switch-div {
   width: 14rem;
   height: 6.6rem;
-  margin: 1rem 3rem;
   background-color: var(--current-line);
 }
 
@@ -32,7 +32,7 @@
   line-height: 2rem;
   font-size: 2rem;
   transition: 0.2s;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .content header nav .switch-div::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;

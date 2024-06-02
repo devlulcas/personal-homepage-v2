@@ -1,14 +1,26 @@
 /*-APPS*/
 
-.content section {
-  padding: 4rem 6.6rem;
+.content > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    height: 40dvh;
+  }
 }
 
-.content section .apps {
-  width: 25%;
-  height: 60%;
-  margin: 0 2rem;
+.content > section .apps {
+  width: 100%;
+  height: 100%;
   border-radius: 1rem;
   background-color: var(--current-line);
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 100%;
 }

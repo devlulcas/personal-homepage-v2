@@ -2,13 +2,15 @@
 
 .content main {
   overflow-y: hidden;
+  width: 100% ;
 }
 
 .content main form {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  outline: 1px solid red;
+  width: 100%;
 }
 
 /*--SEARCH-INPUT*/
